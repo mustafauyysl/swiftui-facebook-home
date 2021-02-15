@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4550F48025D9F61300F5236D /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550F47F25D9F61300F5236D /* StoriesView.swift */; };
+		4550F48325D9F64B00F5236D /* FBPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550F48225D9F64B00F5236D /* FBPost.swift */; };
 		4554256E25D90A3800F4983D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554256D25D90A3800F4983D /* AppDelegate.swift */; };
 		4554257025D90A3800F4983D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554256F25D90A3800F4983D /* SceneDelegate.swift */; };
 		4554257225D90A3800F4983D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554257125D90A3800F4983D /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4550F47F25D9F61300F5236D /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
+		4550F48225D9F64B00F5236D /* FBPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPost.swift; sourceTree = "<group>"; };
 		4554256A25D90A3800F4983D /* FacebookHomeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookHomeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4554256D25D90A3800F4983D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4554256F25D90A3800F4983D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +63,12 @@
 				4554256D25D90A3800F4983D /* AppDelegate.swift */,
 				4554256F25D90A3800F4983D /* SceneDelegate.swift */,
 				4554257125D90A3800F4983D /* ContentView.swift */,
+				4550F47F25D9F61300F5236D /* StoriesView.swift */,
 				4554257325D90A3B00F4983D /* Assets.xcassets */,
 				4554257825D90A3C00F4983D /* LaunchScreen.storyboard */,
 				4554257B25D90A3C00F4983D /* Info.plist */,
 				4554257525D90A3B00F4983D /* Preview Content */,
+				4550F48225D9F64B00F5236D /* FBPost.swift */,
 			);
 			path = FacebookHomeUI;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4550F48025D9F61300F5236D /* StoriesView.swift in Sources */,
 				4554256E25D90A3800F4983D /* AppDelegate.swift in Sources */,
+				4550F48325D9F64B00F5236D /* FBPost.swift in Sources */,
 				4554257025D90A3800F4983D /* SceneDelegate.swift in Sources */,
 				4554257225D90A3800F4983D /* ContentView.swift in Sources */,
 			);
